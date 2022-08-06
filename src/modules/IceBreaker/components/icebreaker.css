@@ -1,0 +1,403 @@
+/*.desktop-view {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.breadcrumb-title {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    color: #000000;
+    opacity: 0.9;
+}
+
+.row {
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 40px;
+    border: 1px solid #EEEEEE;
+    margin: 0 auto;
+}
+
+.start-text {
+    background: #1A1D1F;
+    border: 2px solid #B0CE47;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    width: 28%;
+    margin: 0 auto;
+}
+
+.short-title {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.9;
+    margin-top: 15px;
+}
+
+.randomFilter label {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #666666;
+    max-width: 30ch;
+}
+
+.add-btn-style {
+    padding: 15px 25px;
+}
+
+.add-btn-style button {
+    background: #B0CE47;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #fff;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%;
+    margin-left: 5px;
+    margin: 0 auto;
+    font-family: 'Poppins';
+} */
+.right-side-dashboard {
+    width: 74%;
+    max-width: 100%;
+    margin-left: 2%;
+}
+
+.search-area-right-dashboard {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.search-area-right-dashboard h6 {
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    color: #000000;
+    opacity: 0.9;
+}
+.c-icebreaker-main {
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 40px;
+}
+@keyframes breathe {
+   
+         50% {
+        box-shadow: 0 0 0 15px #e9f5df, 0 0 0 15px #e9ecde, 0 0 0 10px #e9f1cc, 0 0 0 5px #f7faed;
+         }
+        }
+.icebreaker-icon-wrapper-main {
+   /* border: 5px solid #f7faed;*/
+    border-radius: 20px;
+    width: 30%;
+    margin: 0 auto;
+    
+}
+.icebreaker-icon-wrapper.breathe {
+    animation: breathe 7s linear infinite;
+}
+.icebreaker-icon-wrapper {
+   /* border: 5px solid #e9f1cc;*/
+    border-radius: 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+/*animation: breathe 7s linear infinite; */
+.icebreaker-icon-wrapperchild {
+    background: #1A1D1F;
+   /* border: 2px solid #B0CE47;*/
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    width: 100%;
+}
+
+.icebreak-icon.shake { 
+    animation: shake 1s infinite;
+}       
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100%{ transform: translate(1px, -2px) rotate(-1deg); }
+    }
+
+.icebreak-icon {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.icebreaker-wrapper-desc{
+    display: contents;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icebreaker-main-search-label {
+    background: #F5F5F8;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #565656;
+}
+
+.icebreaker-wrapper-desc h6 {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.9;
+    margin-top: 15px;
+}
+
+.icebreaker-wrapper-desc p span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #666666;
+    max-width: 30ch;
+}
+
+.icebreaker-que {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #666666;
+    max-width: 30ch;
+    margin: 0 auto;
+}
+
+.break-icebreak-btn {
+    padding: 15px 25px;
+}
+
+.button-primary {
+    background: #B0CE47;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #fff;
+    padding: 8px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    margin-left: 5px;
+    margin: 0 auto;
+}
+
+.mt20 {
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 992px) {}
+
+@media screen and (min-width: 1201px) {
+    .icebreaker-icon-wrapper-main {
+        width: 32%;
+    }
+}
+
+@media screen and (min-width: 1401px) {
+    .icebreaker-icon-wrapper-main {
+        width: 28%;
+    }
+}
+
+@media screen and (min-width: 1801px) {
+    .icebreaker-icon-wrapper-main {
+        width: 26%;
+    }
+}
+
+@media screen and (min-width: 2001px) {
+    .icebreaker-icon-wrapper-main {
+        width: 22%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .c-plr100 {
+        padding: 0 20px;
+    }
+    .icebreaker-icon-wrapper-main {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .card-desc-main {
+        padding: 10px;
+    }
+    .right-side-reviews {
+        width: 65%;
+        max-width: 100%;
+        margin-left: 4%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .c-plr100 {
+        padding: 0 20px;
+    }
+    .cust-flex {
+        flex-direction: column;
+    }
+    .left-side-dashboard {
+        width: 100%;
+    }
+    .right-side-dashboard {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .left-side-individual {
+        width: 100%;
+        max-width: 100%;
+    }
+    .right-side-individual {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .left-side-reviews {
+        width: 50%;
+        max-width: 100%;
+    }
+    .right-side-reviews {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .cust-btn-flex {
+        display: flex;
+        padding: 0 30px;
+    }
+    .mprl0 {
+        padding: 0;
+    }
+    .mmt10 {
+        margin-top: 10px;
+    }
+    .card-desc-main {
+        padding: 20px;
+    }
+    .icebreaker-icon-wrapper-main {
+        width: 35%;
+    }
+    .game-list-content .tab-content {
+        margin-top: 30px;
+    }
+    .c-navbar .navbar-nav .dropdown-menu {
+        background: transparent;
+        border: 0;
+        box-shadow: none;
+    }
+    .c-navbar .navbar-nav .dropdown-item {
+        color: #fff;
+    }
+    .c-navbar .navbar-nav .dropdown-item:hover {
+        color: #212121;
+    }
+    .c-navbar .navbar-nav {
+        align-items: initial;
+    }
+    .cust-notifcation span {
+        left: 40px;
+    }
+    .submenu-flex h6 {
+        color: #212121;
+    }
+    .menu-p-light {
+        font-size: 14px;
+        color: #212121;
+    }
+    .menu-p-date {
+        color: #212121;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .left-side-reviews {
+        width: 98%;
+        max-width: 100%;
+    }
+    .right-side-reviews {
+        width: 98%;
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .icebreaker-icon-wrapper-main {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .icebreaker-icon-wrapper-main {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .icebreaker-icon-wrapper-main {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .icebreaker-icon-wrapper-main {
+        width: 100%;
+    }
+}

@@ -1,0 +1,354 @@
+@media screen and (min-width: 992px) {}
+
+@media screen and (min-width: 1201px) {
+    .icebreaker-icon-wrapper-main {
+        width: 32%;
+    }
+}
+
+@media screen and (min-width: 1401px) {
+    .icebreaker-icon-wrapper-main {
+        width: 28%;
+    }
+}
+
+@media screen and (min-width: 1801px) {
+    .icebreaker-icon-wrapper-main {
+        width: 26%;
+    }
+}
+
+@media screen and (min-width: 2001px) {
+    .icebreaker-icon-wrapper-main {
+        width: 22%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .c-col-xl-6 {
+        max-width: 50%;
+        flex: 50% 1;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .c-plr100 {
+        padding: 0 20px;
+    }
+
+    .icebreaker-icon-wrapper-main {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .card-desc-main {
+        padding: 10px;
+    }
+
+    .right-side-reviews {
+        width: 65%;
+        max-width: 100%;
+        margin-left: 4%;
+    }
+
+
+}
+
+@media screen and (max-width: 992px) {
+
+
+
+    .c-plr100 {
+        padding: 0 20px;
+    }
+
+    .cust-flex {
+        flex-direction: column;
+    }
+
+    .left-side-dashboard {
+        width: 100%;
+    }
+
+    .right-side-dashboard {
+        width: 100% !important;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .left-side-individual {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .right-side-individual {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .left-side-reviews {
+        width: 50%;
+        max-width: 100%;
+    }
+
+    .right-side-reviews {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .cust-btn-flex {
+        display: flex;
+        padding: 0 30px;
+    }
+
+    .mprl0 {
+        padding: 0;
+    }
+
+    .mmt10 {
+        margin-top: 10px;
+    }
+
+    .card-desc-main {
+        padding: 20px;
+    }
+
+    .icebreaker-icon-wrapper-main {
+        width: 35%;
+    }
+
+    .game-list-content .tab-content {
+        margin-top: 30px;
+    }
+
+    .c-navbar .navbar-nav .dropdown-menu {
+        background: transparent;
+        border: 0;
+        box-shadow: none;
+    }
+
+    .c-navbar .navbar-nav .dropdown-item {
+        color: #fff;
+    }
+
+    .c-navbar .navbar-nav .dropdown-item:hover {
+        color: #212121;
+    }
+
+    .c-navbar .navbar-nav {
+        align-items: initial;
+    }
+
+    .cust-notifcation span {
+        left: 40px;
+    }
+
+    .submenu-flex h6 {
+        color: #212121;
+    }
+
+    .menu-p-light {
+        font-size: 14px;
+        color: #212121;
+    }
+
+    .menu-p-date {
+        color: #212121;
+    }
+
+    .chess-clock-field {
+        width: 100%;
+        height: 380px;
+    }
+
+    .chess-clock {
+        width: 100%;
+        height: 100vh;
+        max-width: none;
+        display: block;
+    }
+
+    .chess-bodysize {
+        margin-top: 0px;
+    }
+
+    .chess-clock-field {
+        flex-direction: column-reverse;
+    }
+
+
+    .chess-clock-toolbar {
+        top: 48%;
+        transform: rotate(90deg);
+
+    }
+
+
+}
+
+@media screen and (max-width: 767px) {
+    .left-side-reviews {
+        width: 98%;
+        max-width: 100%;
+    }
+
+    .right-side-reviews {
+        width: 98%;
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .icebreaker-icon-wrapper-main {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .icebreaker-icon-wrapper-main {
+        width: 60%;
+    }
+
+    .mw50 {
+        width: 100%;
+    }
+
+    .footer-content .container {
+        padding: 15px 20px;
+    }
+
+    .c-col-xl-6 {
+        max-width: 100%;
+        flex: initial;
+    }
+
+    .c-reviews-img video {
+        width: 96%;
+    }
+
+    .c-reviews-img img {
+        width: 96%;
+    }
+
+    .lightbox-img {
+        max-height: 150px;
+        margin-top: 2%;
+    }
+
+    .lightbox-video {
+        max-height: 150px;
+        margin-top: 2%;
+        width: 17%;
+    }
+
+
+    .lightbox-profile-detail {
+        display: block;
+    }
+
+    .search-area-right-dashboard {
+        display: block;
+    }
+
+    .cust-search-right-dashboard {
+        width: 100%;
+    }
+
+    .share-modal-body {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .chess-clock-field.black-field {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .chess-clock-field.white-field {
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .pause-btn {
+        position: absolute;
+        top: 30px;
+        right: 0px;
+    }
+
+    .icebreaker-icon-wrapper-main {
+        width: 80%;
+    }
+
+    .chess-clock-toolbar {
+        top: 46% !important;
+    }
+
+    .active-off .chess-clock-field.un-active {
+        height: 50% !important;
+    }
+
+    .chess-clock-field.un-active {
+        height: 40% !important;
+    }
+
+    .chess-clock-field.active {
+        height: 60% !important;
+    }
+
+    .chess-clock-toolbar.black-active {
+        top: calc(60% - 30px) !important;
+        left: calc(50% - 0px) !important;
+    }
+
+    .chess-clock-toolbar.white-active {
+        top: calc(40% - 30px) !important;
+        left: calc(50% - 0px) !important;
+    }
+
+    .normal-chess-screen .chess-clock {
+        position: absolute;
+        left: -50px !important;
+        top: -50px !important;
+        display: table-column;
+        height: 100vh;
+        /* width: 100vw; */
+    }
+
+    .chess-clock-field {
+        width: 100% !important;
+    }
+
+
+
+    .normal-chess-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        z-index: 1000;
+        margin-top: 0px !important;
+    }
+
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 350px) {
+    .icebreaker-icon-wrapper-main {
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 11" width="16" height="11">
+	<title>MicrosoftTeams-image (9)</title>
+	<defs>
+		<image  width="16" height="11" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAAXNSR0IB2cksfwAAADZQTFRFZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmk74BEwAAABJ0Uk5TAGDvr//wQCA/MJ+A0KAQ4MCwXuXcqQAAAEdJREFUeJxdzFESQDAQBNHGRoRIuP9lhUEt+/e6phb8df3wtVn4eyRO3gmCzfIik01lvU1Raa5J06s05/I8O4u3ijfEbX99AJ8lAi5AKQO6AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

@@ -1,0 +1,5 @@
+export const SET_LOADING = "SET_LOADING";
+
+//Footer
+export const GET_SYSTEM_PAGE_DETAIL = "GET_SYSTEM_PAGE_DETAIL";
+export const GET_ALL_FOOTER_MENU = "GET_ALL_FOOTER_MENU";

@@ -1,0 +1,3 @@
+export const SET_SITES_LOADING = "SET_SITES_LOADING";
+export const SET_SITES = "SET_SITES";
+export const GET_ALL_APP_MENU = "GET_ALL_APP_MENU";
